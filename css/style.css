@@ -16,27 +16,10 @@ body
     letter-spacing: .1em;
 
     color: #4c4c4c;
-    background-color: #dbebc4;
+    background-color: #f8f4e6;
 }
 
-a
-{
-    text-decoration: none;
 
-    color: #043c78;
-}
-a:visited
-{
-    color: #043c78;
-}
-a:hover
-{
-    color: #043c78;
-}
-a:active
-{
-    color: #ee7800;
-}
 a:hover
 {
     text-decoration: underline;
@@ -63,55 +46,10 @@ section .container,
 
 /* Font
 ------------------------------------------------------------*/
-.abel,
-section h2,
-#menu h3,
-#works .works-box a .works-box-inner .button-readmore
-{
-    font-family: 'Abel', sans-serif;
-}
-
-.uppercase,
-section h2,
-#menu h3,
-#works .works-box a .works-box-inner .button-readmore
-{
-    text-transform: uppercase;
-}
 
 /* Header
 ------------------------------------------------------------*/
-.button-contact
-{
-    font-size: 20px;
-    line-height: 0;
 
-    display: block;
-    float: right;
-
-    width: 20px;
-    height: 20px;
-    margin: 20px 20px 0 0;
-    padding: 10px;
-
-    text-align: center;
-
-    color: #4c4c4c;
-    border: 2px solid #4c4c4c;
-    -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
-}
-.button-contact:visited
-{
-    color: #dbebc4;
-}
-.button-contact:hover,
-.button-contact:active
-{
-    color: #fff;
-    background-color: #dbebc4;
-}
 
 /* topimage
 ------------------------------------------------------------*/
@@ -145,7 +83,7 @@ section h1
 
 #menu
 {
-    background-color: #dbebc4;
+    background-color: #ee7800;
 }
 #menu .container
 {
@@ -174,7 +112,7 @@ section h1
     -webkit-border-radius: 4px;
        -moz-border-radius: 4px;
             border-radius: 4px;
-    background-color: #fdfcf6;
+    background-color: #fffff9;
 }
 @media (max-width: 768px) {
     #menu .menu-box{
@@ -199,7 +137,7 @@ section h1
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background-color: #9f166a;
+    background-color: #7b5544;
 }
 
 #contact ul
@@ -239,10 +177,10 @@ section h1
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
-    background-color: #9f166a;
+    background-color: #7b5544;
 }
 #contact ul a:hover
 {
-    background-color: #5f6527;
+    background-color: #ee7800;
 }
 
